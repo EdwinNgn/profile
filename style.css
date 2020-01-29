@@ -1,0 +1,106 @@
+
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .img-circle {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    margin: 0px auto 20px auto;
+  }
+
+  .blue-button {
+    display: inline-block;
+    background-color: #E4572E;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: 10px;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .block-element {
+    text-align: center;
+    border-radius: 10px;
+    height: 75px;
+    width: 600px;
+    margin: 0px auto;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+  }
+
+  .navbar a {
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+  }
+
+  .blue-button:hover{
+    background-color: white;
+    color: #E4572E;
+  }
+
+  .blue-button:hover a{
+    color: #E4572E;
+  }
+
+  .category {
+    background-color: #FEFEFF;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 1000px;
+  }
+
+  .category h2 {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #D6EFFF;
+
+  }
+
+  h3 {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+  h2 {
+    color: #E4572E;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h1 {
+    color: #2E282A;
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+@media (max-width: 1000px) {
+    .category {
+    background-color: #FEFEFF;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 600px;
+  }
+
+}
+
+
+
