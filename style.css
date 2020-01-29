@@ -63,6 +63,7 @@
     border-radius: 10px;
     margin: 10px auto;
     width: 1000px;
+    height: 200px;
   }
 
   .category h2 {
@@ -92,29 +93,22 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .category {
-    background-color: #FEFEFF;
-    border-radius: 10px;
-    margin: 10px auto;
-    width: 600px;
+    width: 800px;
   }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .category {
-    background-color: #FEFEFF;
-    border-radius: 10px;
-    margin: 10px auto;
     width: 80%;
   }
  .block-element {
-    text-align: center;
-    border-radius: 10px;
-    height: 75px;
     width: 80%;
-    margin: 0px auto;
+  }
+  .blue-bouton{
+    display: block;
   }
 }
 
